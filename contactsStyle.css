@@ -1,0 +1,70 @@
+.contacts{
+	display: flex;
+	justify-content: space-between;
+	/* align-items: center; */
+	height: 600px;
+	margin: 0px 300px;
+	margin-top: 160px;
+}
+
+.contacts_info{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.contacts_info_title{
+	font-size: 20px;
+	font-weight: 550;
+}
+.contacts_info_phone, .contacts_info_adress{
+	text-decoration: none;
+	color: rgba(93, 113, 221, 1);
+	font-weight: 400;
+	font-size: 18px;
+}
+.contacts_info_icons{
+	display: flex;
+	gap: 16px;
+}
+
+.contacts_form{
+	box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+	width: 450px;
+	height: 380px;
+	padding: 40px;
+}
+.contacts_form_title{
+	font-size: 20px;
+	font-weight: 550;
+}
+.contacts_form_name, .contacts_form_phoneOrEmail, .contacts_form_message{
+	background-color: rgba(245, 245, 245, 1);
+	padding: 13px 32px;
+	border-radius: 20px;
+	border: none;
+	font-size: 14px;
+	outline: none;
+}
+.contacts_form_message{
+	
+}
+.contacts_form_button{
+	padding: 13px 32px;
+	border-radius: 20px;
+	border: none;
+	font-size: 18px;
+	color: white;
+	background-color: rgba(93, 113, 221, 1);
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 14px;
+	font-size: 14px;
+}
