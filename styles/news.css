@@ -1,0 +1,76 @@
+/* News Banner -------------------------- */
+.newsBanner_img{
+	width: 100%;
+	margin: 30px 0px;
+}
+/* end -------------------------- */
+
+/* News -------------------------- */
+.news{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	padding-right: 200px;
+	margin-bottom: 40px;
+}
+		/* Title Container */
+		.newsMain_titleContainer{
+			display: flex;
+			align-items: center;
+			gap: 40px;
+		}
+				/* Tag */
+				.newsMain_Tag{
+					background-color: rgba(93, 113, 221, 0.05);
+					padding: 8px 16px;
+					color: #5D71DD;
+					border-radius: 6px;
+					display: inline-flex;
+					cursor: pointer;
+				}
+				/* Date */
+				.newsMain_Date{
+					color: #2F2222;
+					opacity: 40%;
+				}
+		/* Title */
+		.news_title{
+			font-size: 30px;
+			font-weight: 550;
+		}
+		/* Text */
+		.news_text{
+			font-size: 18px;
+			line-height: 32px;
+			font-weight: 400;
+		}
+		/* Класс twoColumn в файле Main */
+
+				/* Text Block */
+				.news_textBlock{
+					display: flex;
+					flex-direction: column;
+					gap: 20px;
+				}
+				/* Text Block */
+				.news_secondColumn{
+					display: flex;
+					flex-direction: column;
+					gap: 10px;
+				}
+				.news_secondColumn_p{
+					font-size: 14px;
+					font-weight: 400;
+					line-height: 24px;
+				}
+		/* News Buttons */
+		.news_buttons{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-top: 20px;
+		}
+/* end -------------------------- */
+
+
+

@@ -6,9 +6,9 @@
 	<title>News</title>
 	<link rel="stylesheet" href="styles/general.css">
 	<link rel="stylesheet" href="styles/header.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/news.css">
 	<link rel="stylesheet" href="styles/footer.css">
-
-	<link rel="stylesheet" href="news.css">
 </head>
 <body>
 
@@ -54,53 +54,58 @@
 	<div class="container__grid">
 		<div class="main">
 			<div class="main__leftside">
-				<div class="newsBlock">
-					<div class="newsMain_tagAndDate">
-						<p class="newsMain_tagAndDate_tag">
+
+				<!-- News -->
+				<div class="news">
+					<div class="newsMain_titleContainer">
+						<p class="newsMain_Tag">
 							Категория 1
 						</p>
-						<p class="newsMain_tagAndDate_date">
+						<p class="newsMain_Date">
 							13 дек 2020
 						</p>
 					</div>
-					<p class="newsMain_title">
+					<p class="news_title">
 						Управление ИТ-активами – скучная рутина или творческая задача?
 					</p>
-					<p class="newsMain_text">
+					<p class="news_text">
 						Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не принёс отчёт, решив проверить, нужен ли он вообще. Выждав несколько дней, он пришёл к руководителю и спросил: «Похоже тот отчёт, который я готовлю, не особо востребован, а что вам действительно нужно?» Руководитель признался, что массивный отчёт хороший, но им не пользуются. И набросал на листе бумаги то, что хотелось бы иметь под рукой.
 					</p>
-					<p class="newsMain_text">
+					<p class="news_text">
 						Управление ИТ-активами, как и управление конфигурациями, является базовым процессом для других. В первом случае более важным является финансовый аспект, во втором – эксплуатационные задачи. Оба процесса можно перегрузить деталями и превратить во что-то рутинное. Как же найти баланс и сделать процесс по-настоящему «живым»?
 					</p>
 					
-					<div class="newsMain_twoCloumns">
-						<div class="newsMain_text_blocks">
-							<p class="newsMain_text">
+					<div class="twoColumn"> <!-- Класс twoColumn в файле Main -->
+						<div class="news_textBlock">
+							<p class="news_text">
 								Конечно, баланс унификации и персонального подхода – дело каждого. Вспомним историю про послевоенное автомобилестроение: американская и японская тактика. Постепенно японцы достигли превосходства благодаря, в том числе, выверенному балансу унификации и культуре производства. Но это правило не для всех.
 							</p>
-							<p class="newsMain_text">
+							<p class="news_text">
 								Конечно, баланс унификации и персонального подхода – дело каждого. Вспомним историю про послевоенное автомобилестроение: американская и японская тактика. Постепенно японцы достигли превосходства благодаря, в том числе, выверенному балансу унификации и культуре производства. Но это правило не для всех.
 							</p>
 						</div>
 					
-						<div class="newsMain_computer">
-							<img class="newsMain_computer_img" src="src/news/computer.svg" alt="">
-							<p class="newsMain_computer_p">
+						<div class="news_secondColumn">
+							<img class="news_secondColumn_img" src="src/news/computer.svg" alt="">
+							<p class="news_secondColumn_p">
 								Учёт из рутины может превратиться в интересную задачу, своего рода «вызов» по переходу на новый уровень.
 							</p>
 						</div>
 					</div>
 
+					<!-- Banner -->
 					<img src="src/news/view.svg" alt="">
-					<div class="newsMain_buttons">
-						<button class="commonButton">Предыдущая новость <img src="src/news/prev.svg" alt=""></button>
-						<button class="commonButton">Следующая новость <img src="src/news/next.svg" alt=""></button>
+
+					<!-- Buttons Prev and Next -->
+					<div class="news_buttons">
+						<button class="commonButton"><img src="src/news/prev.svg" alt="">Предыдущая новость </button>
+						<button class="commonButton">Следующая новость<img src="src/news/next.svg" alt=""></button>
 					</div>
 				</div>
 			</div>
 
 			<div class="main_rightside">
-
+				<!-- Popular News -->
 				<div class="popularNews">
 					<p class="popularNews_title">Популярные новости</p>
 					<div class="popularNews_items">
