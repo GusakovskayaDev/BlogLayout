@@ -1,0 +1,47 @@
+/* Component 1 -------------------------- */
+.component_1{
+	background-color: white;
+	padding: 20px 30px;
+	border-radius: 10px;
+	flex: 1;
+	cursor: pointer;
+	transition: transform 0.1s;
+}
+.component_1:hover{
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+	transform: translateY(-2px);
+}
+		/* Title Container */
+		.component_1_titleContainer{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 36px;
+		}
+				/* Tag */
+				.component_1_title_tag{
+					background-color: #F7F8FD;
+					padding: 8px 16px;
+					color: #5D71DD;
+					border-radius: 6px;
+				}
+				/* Date */
+				.component_1_title_date{
+					color: #2F2222;
+					opacity: 40%;
+				}
+
+/* Title */
+.component_1_title{
+	font-size: 24px;
+	line-height: 30.77px;
+	margin-bottom: 20px;
+}
+/* Description */
+.component_1_description{
+	font-size: 18px;
+	color: #2F2222;
+	opacity: 40%;
+	line-height: 30px;
+}
+/* end -------------------------- */

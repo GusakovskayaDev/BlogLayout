@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="styles/general.css">
 	<link rel="stylesheet" href="styles/header.css">
 	<link rel="stylesheet" href="styles/footer.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/component1.css">
 
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="newStyle.css">
@@ -32,6 +34,9 @@
 						<li class="header_menu_li">
 							<a class="header_menu_a" href="404.html">Поиск</a>
 						</li>
+						<li class="header_menu_li">
+							<a class="components" href="components.html">Components</a>
+						</li>
 					</ul>
 				</nav>
 				<div class="header_phone">
@@ -44,28 +49,31 @@
 
 	<!-- banner -->
 	<div class="container">
-		<img class="banner" src="src/banner.svg" alt="">
+		<img class="banner_img" src="src/banner.svg" alt="">
 	</div>
 
-		<!-- main -->
+	<!-- main -->
 	<div class="container">
 		<div class="container__grid">
 			<div class="main">
-				<div class="main__leftside">
+				<div class="main__leftSide">
 
-					<!-- Block 1 -->
+					<!-- Content 1 -->
+					<div class="content">
 						<div class="component_1">
-							<div class="component_1__divTitle">
-								<p class="component_1__divTitle__tag">Категория 1</p>
-								<p	class="component_1__divTitle__date">13 дек 2020</p>
+							<div class="component_1_titleContainer">
+								<p class="component_1_title_tag">Категория 1</p>
+								<p	class="component_1_title_date">13 дек 2020</p>
 							</div>
-							<h3 class="component_1__title">
+							<h3 class="component_1_title">
 								Управление ИТ-активами – скучная рутина или творческая задача?
 							</h3>
-							<p class="component_1__description">
+							<p class="component_1_description">
 								Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не принёс отчёт, решив проверить, нужен ли он вообще. 
 							</p>
 						</div>
+					</div>
+						
 
 					<!-- Block 2 -->
 						<div class="container__twoColumn_row">
@@ -209,7 +217,7 @@
 					</div>
 
 				</div>
-				<div class="main_rightside">
+				<div class="main_rightSide">
 					
 					<div class="popularNews">
 						<p class="popularNews_title">Популярные новости</p>

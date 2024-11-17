@@ -1,0 +1,14 @@
+/* Banner ------------------------ */
+.banner_img{
+	width: 100%;
+	height: 300px; 
+	object-fit: cover;
+}
+/* end --------------------------- */
+
+/* Main ------------------------ */
+.content{
+	flex: 1;
+	/* background-color: pink; */
+}
+/* end --------------------------- */
