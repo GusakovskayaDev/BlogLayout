@@ -1,78 +1,4 @@
-/* Общий стиль для всех элементов */
-*{
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
-	font-family: poppins, sans-serif;
-}
 
-body{
-	/* background-color: #efefef; */
-}
-
-/* Стандартные контейнеры для всех блоков */
-.container{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.container__grid{
-	width: 1500px;
-}
-
-/* Header ------------------------ */
-.header{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 10px 0px;
-}
-.header__logo{
-	cursor: pointer;
-}
-
-		/* Header Right Side */
-		.header__right-side{
-			display: flex;
-			flex-direction: row;
-			gap: 40px;
-		}
-
-				/* Header NavBar */
-				.header__menu{
-					display: flex;
-					gap: 40px;
-				}
-				.header__menu-item{
-					list-style-type: none; 
-				}
-				.header__link{
-					text-decoration: none;
-					color: black;
-					font-weight: 400;
-					font-size: 18px;
-				}
-				.header__link:active{
-					color: #5D71DD;
-					text-decoration: underline;
-					text-underline-offset: 6px;
-				}
-				.header__link:hover{
-					color: #5D71DD;
-				}
-
-				/* Header Phone */
-				.header__phone{
-					display: flex;
-					gap: 10px;
-				}
-				.header__phone-number{
-					color: #5D71DD;
-					text-decoration: none;
-					font-weight: 450;
-					font-size: 18px;
-				}
-/* end --------------------------- */
 
 /* Banner ------------------------ */
 .banner{
@@ -85,6 +11,7 @@ body{
 /* Main -------------------------- */
 .main{
 	display: flex;
+	gap: 30px;
 }
 		/* Main Left Side */
 		.main__leftside{
@@ -280,6 +207,7 @@ hr{
 
 .subcribtion{
 	background-color: white;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
 	height: 270px;
 	padding: 30px;
 	border-radius: 10px;

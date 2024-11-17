@@ -4,33 +4,42 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Blog Layout</title>
+	<link rel="stylesheet" href="styles/general.css">
+	<link rel="stylesheet" href="styles/header.css">
+
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="newStyle.css">
 </head>
 <body>
 	
 	<!-- Header -->
-	<div class="container">
-		<div class="container__grid">
-			<header class="header">
-				<img class="header__logo" src="src/header/logo.svg" alt="">
-				<div class="header__right-side">
-						<nav class="header__nav">
-								<ul class="header__menu">
-										<li class="header__menu-item"><a class="header__link" href="index.html">Главная</a></li>
-										<li class="header__menu-item"><a class="header__link" href="404.html">О нас</a></li>
-										<li class="header__menu-item"><a class="header__link" href="contacts.html">Контакты</a></li>
-										<li class="header__menu-item"><a class="header__link" href="404.html">Поиск</a></li>
-								</ul>
-						</nav>
-						<div class="header__phone">
-								<img class="header__phone-icon" src="src/header/phone.svg" alt="">
-								<a class="header__phone-number" href="">+7(987)887-87-87</a>
-						</div>
+	<header class="header">
+		<div class="header_container">
+			<img class="header_logo" src="src/header/logo.svg" alt="">
+			<div class="header_menu">
+				<nav class="header_menu_nav">
+					<ul class="header_menu_ul">
+						<li class="header_menu_li">
+							<a class="header_menu_a" href="index.html">Главная</a>
+						</li>
+						<li class="header_menu_li">
+							<a class="header_menu_a" href="404.html">О нас</a>
+						</li>
+						<li class="header_menu_li">
+							<a class="header_menu_a" href="contacts.html">Контакты</a>
+						</li>
+						<li class="header_menu_li">
+							<a class="header_menu_a" href="404.html">Поиск</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header_phone">
+					<img class="header_phone_icon" src="src/header/phone.svg" alt="">
+					<a class="header_phone_number" href="">+7(987)887-87-87</a>
 				</div>
-		</header>
-	</div>
-</div>
+			</div>
+		</div>
+	</header>
 
 	<!-- banner -->
 	<div class="container">

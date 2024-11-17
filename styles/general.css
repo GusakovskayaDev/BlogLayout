@@ -1,0 +1,21 @@
+/* Общий стиль для всех элементов */
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: poppins, sans-serif;
+}
+
+body{
+	background-color: #f8f8f8;
+}
+
+/* Стандартные контейнеры для всех блоков */
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container__grid{
+	width: 1500px;
+}
