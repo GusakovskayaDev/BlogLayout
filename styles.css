@@ -247,46 +247,7 @@ hr{
 }
 
 
-footer{
-	display: flex;
-	align-items: center;
-	justify-content: center;
 
-	background-color: rgba(93, 113, 221, 0.05);
-	padding: 40px 0px;
-}
-.footer{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 70px;
-	width: 1500px;
-}
-.footer_img{
-	cursor: pointer;
-}
-.footer_nav_ul{
-	display: flex;
-	list-style-type: none; 
-	gap: 60px;
-}
-.footer_nav_ul_li_a{
-	text-decoration: none;
-	color: black;
-	font-weight: 400;
-	font-size: 18px;
-}
-.footer_nav_ul_li_a:active{
-	color: #5D71DD;
-	text-decoration: underline;
-	text-underline-offset: 6px;
-}
-.footer_nav_ul_li_a:hover{
-	color: #5D71DD;
-}
-.footer_ooo{
-	color: rgba(47, 34, 34, 1);
-}
 
 
 
