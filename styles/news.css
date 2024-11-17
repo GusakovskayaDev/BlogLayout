@@ -73,4 +73,38 @@
 /* end -------------------------- */
 
 
+/*laptops, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+	/* News -------------------------- */
+	.news{
+		padding-right: 0px;
+		margin-bottom: 30px;
+	}
+}
 
+/*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px){
+	.news{
+		padding-right: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 480px){
+	/* grid */
+	.container__grid{
+		width: 400px;
+	}
+
+	/* News Banner -------------------------- */
+	.newsBanner_img{
+		width: 100%;
+		margin: 0px 0px;
+	}
+
+	/* News -------------------------- */
+.news{
+	padding-right: 0px;
+}
+}

@@ -7,7 +7,6 @@
 /* end --------------------------- */
 
 /* Main ------------------------ */
-
 /* Контейнер разделяющий на две колонки */
 .twoColumn{
 	display: flex;
@@ -94,16 +93,22 @@
 	height: 270px;
 	padding: 30px;
 	border-radius: 10px;
-
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	gap: 20px;
 }
+		.subcribtion_form{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 20px;
+		}
 		.subcribtion_title{
 			font-size: 22px;
 			font-weight: 550;
+			margin-bottom: 20px;
 		}
 		.subcribtion_input{
 			background-color: rgba(245, 245, 245, 1);
@@ -128,3 +133,54 @@
 			gap: 14px;
 		}
 /* end ------------------------ */
+
+@media (min-width: 768px) and (max-width: 1024px){
+	/* Popular News ------------------------ */
+	.popularNews_items{
+		flex-direction: row;
+	}
+			.popularNews_item{
+				width: 300px;
+			}
+			.popularNews_item_title{
+				font-size: 16px;
+			}
+
+	/* Subscribtion ------------------------ */
+	.subcribtion{
+		margin-bottom: 30px;
+	}
+			.subcribtion_form{
+				flex-direction: row;
+			}
+
+}
+
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 480px){
+	/* Main ------------------------ */
+	/* Контейнер разделяющий на две колонки */
+	.twoColumn{
+		flex-direction: column;
+		align-items: center;
+		row-gap: 30px;
+	}
+	
+	/* Popular News ------------------------ */
+	.popularNews_title{
+		text-align: center;
+	}
+	.popularNews_items{
+		flex-direction: column;
+		align-items: center;
+	}
+	.popularNews_item{
+		width: 300px;
+	}
+
+	/* Subscribtion ------------------------ */
+	.subcribtion{
+		padding: 18px;
+		margin-bottom: 30px;
+	}
+}
