@@ -41,3 +41,14 @@ body{
 			flex: 110;
 		}
 /* end --------------------------- */
+
+/* Button -------------------------- */
+.commonButton{
+	cursor: pointer;
+	border: none;
+	padding: 10px 16px;
+	border-radius: 8px;
+	color: rgba(93, 113, 221, 1);
+	background-color: rgba(93, 113, 221, 0.05);
+}
+/* end --------------------------- */

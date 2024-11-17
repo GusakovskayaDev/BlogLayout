@@ -7,8 +7,46 @@
 /* end --------------------------- */
 
 /* Main ------------------------ */
-.content{
-	flex: 1;
-	/* background-color: pink; */
+
+/* Контейнер разделяющий на две колонки */
+.twoColumn{
+	display: flex;
+	flex-direction: row;
+	column-gap: 30px;
 }
+/* Контейнер разделяющий на две строки */
+.twoRow{
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+	flex: 1;
+}
+
+/* Paggination */
+.paggination{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+		/* Paggination Flex */
+		.paggination_flex{
+			display: flex;
+			align-items: center;
+			column-gap: 20px;
+		}
+		/* Paggination a (links) */
+		.paggination_a{
+			list-style-type: none; 
+			text-decoration: none;
+			color: black;
+		}
+		.paggination_a:active{
+			color: #5D71DD;
+			text-decoration: underline;
+			text-underline-offset: 6px;
+		}
+		.paggination_a:hover{
+			color: #5D71DD;
+		}
 /* end --------------------------- */
