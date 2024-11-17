@@ -239,6 +239,77 @@ body{
 
 /* Main Right Side */
 .main_rightside{
-	flex: 130;
+	flex: 110;
 	/* background-color: blue; */
+}
+
+
+/* Popular News */
+.popularNews{
+	margin: 30px 0px;
+}
+.popularNews_title{
+	font-size: 24px;
+	font-weight: 550;
+	line-height: 37px;
+}
+.popularNews_items{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin-top: 30px;
+}
+.popularNews_item{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.popularNews_item_title{
+	font-size: 18px;
+}
+.popularNews_item_date{
+	color: rgba(47, 34, 34, 0.4);
+	font-size: 18px;
+	font-weight: 400;
+}
+hr{
+	height: 2px;
+  border: none;
+	background-color: rgba(229, 228, 228, 1);
+}
+
+.subcribtion{
+	background-color: white;
+	height: 270px;
+	padding: 30px;
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+.subcribtion_title{
+	font-size: 22px;
+	font-weight: 550;
+}
+.subcribtion_input{
+	background-color: rgba(245, 245, 245, 1);
+	padding: 13px 32px;
+	border-radius: 20px;
+	border: none;
+	width: 90%;
+	font-size: 18px;
+	outline: none;
+}
+.subcribtion_button{
+	padding: 13px 32px;
+	border-radius: 20px;
+	border: none;
+	width: 90%;
+	font-size: 18px;
+	color: white;
+	background-color: rgba(93, 113, 221, 1);
+	cursor: pointer;
 }
