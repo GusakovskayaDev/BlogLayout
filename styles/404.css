@@ -1,0 +1,17 @@
+
+
+/* 404 ------------------------ */
+.page404{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+	margin: 100px 0px;
+}
+		/* Title */
+		.page404_title{
+			font-size: 22px;
+			font-weight: 550;
+		}
+/* end --------------------------- */
